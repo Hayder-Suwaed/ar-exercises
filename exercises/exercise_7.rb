@@ -16,6 +16,7 @@ store = Store.new(name: pick_store)
 puts store.valid?
 puts "What is the error?: ", store.errors.messages
 
+
 # Employee.create(first_name: nil).valid?
 # Employee.create(last_name: nil).valid?
 # Employee.create(store_id: nil).valid?
