@@ -21,6 +21,7 @@ end
   puts "#{store.name} : #{store.annual_revenue}" 
 end
 
+
 # Borrowing and modifying the code from Exercise one, create 3 more stores:
 # Surrey (annual_revenue of 224000, carries women's apparel only)
 # Whistler (annual_revenue of 1900000 carries men's apparel only)
