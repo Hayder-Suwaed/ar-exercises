@@ -18,6 +18,7 @@ puts "----------"
 
 puts "Employee.count: ", Employee.count
 
+
 # Add the following code directly inside the Store model (class): has_many :employees
 # Add the following code directly inside the Employee model (class): belongs_to :store
 # Add some data into employees. Here's an example of one (note how it differs from how you create stores): @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
