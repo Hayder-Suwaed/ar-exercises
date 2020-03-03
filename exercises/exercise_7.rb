@@ -14,7 +14,7 @@ puts "Enter a store name."
 pick_store = gets.chomp
 store = Store.new(name: pick_store)
 puts store.valid?
-puts "What is the error?: ", store.errors.messages
+puts "What is the error?: ", store.errors.messages 
 
 
 # Employee.create(first_name: nil).valid?
